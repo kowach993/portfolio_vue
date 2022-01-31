@@ -23,7 +23,6 @@
       bg-variant="cblack"
       backdrop
       shadow
-      class="overflow-hidden"
       text-variant="light"
       title="Menu"
     >
@@ -60,7 +59,7 @@ export default {
   display: flex;
   align-items: center;
   background-color: #161a1d;
-  height: 100vh;
+  height: 100%;
   width: 300px;
   flex-direction: column;
 }
