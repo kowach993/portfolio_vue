@@ -20,7 +20,6 @@
     <b-sidebar
       id="sidebar-backdrop"
       backdrop-variant="dark"
-      bg-variant="cblack"
       backdrop
       shadow
       text-variant="light"
@@ -53,7 +52,11 @@ export default {
 }
 </script>
 
-<style scoped>
+<style>
+
+.b-sidebar  {
+    background-color: #161a1d!important;
+}
 
 #mobile_nav, #nav_desktop {
   display: flex;
@@ -172,7 +175,8 @@ a {
         }
 
         .bg-foobar {
-          background-color: #161a1d;
+          background-color: #343a40;
+          z-index: 2;
         }
 
         #avatar {
